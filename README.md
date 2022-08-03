@@ -1,1 +1,1 @@
-# OpenCVProjects
+# Rolling Ball C++ Implementation
