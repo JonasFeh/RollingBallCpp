@@ -134,7 +134,7 @@ cv::Mat getImage(std::string theFileName)
 
 int main(int argc, char* argv[])
 {
-    std::string fileName = "../../../res/RollingBallTestImageBig.png";
+    std::string fileName = "../../../res/RollingBallTestImage.png";
     auto grayScaleImage = getImage(fileName);
     cv::bitwise_not(grayScaleImage, grayScaleImage);
     cv::Mat foreground, background;
