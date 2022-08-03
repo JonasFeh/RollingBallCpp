@@ -3,6 +3,7 @@
 #include <map>
 #include <limits>
 #include <set>
+#include <omp.h>
 
 namespace jonascv
 {
